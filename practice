@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RockMart</title>
+</head>
+<body>
+    <h1>RockMart</h1>
+    <p>Your Complete Shopping Destination</p>
+    
+    <ul>
+        <li>House</li>
+        <li>Electronics</li>
+        <li>Business</li>
+        <li>Books</li>
+        <li>Designs</li>
+        <li>Contact</li>
+    </ul>
+    
+    <h2>Product Search</h2>
+    <input type="text" placeholder="Search products...">
+    
+    <h2>Featured Products</h2>
+    <div style="display: flex; gap: 20px;">
+        <!-- Wireless Headphones Card -->
+        <div style="border: 1px solid #ddd; padding: 15px; width: 250px;">
+            <img src="https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_UF1000,1000_QL80_.jpg" alt="Wireless Headphones" style="width:100%; height:150px; object-fit:cover;">
+            <h3>Wireless Headphones</h3>
+            <p>Premium noise-cancelling Bluetooth headphones</p>
+            <ul>
+                <li>40mm drivers</li>
+                <li>30-hour battery</li>
+                <li>Bluetooth 5.0</li>
+            </ul>
+            <p><strong>5999 PKR</strong></p>
+            <p>In Stock</p>
+            <button>Add to Cart</button>
+            <p><small>"Active Card" Available in Karachi only</small></p>
+        </div>
+        
+        <!-- Smart Watch Pro Card -->
+        <div style="border: 1px solid #ddd; padding: 15px; width: 250px;">
+            <img src="https://m.media-amazon.com/images/I/71Swqqe7XAL._AC_UF1000,1000_QL80_.jpg" alt="Smart Watch Pro" style="width:100%; height:150px; object-fit:cover;">
+            <h3>Smart Watch Pro</h3>
+            <p>Advanced smartwatch with health monitoring</p>
+            <ul>
+                <li>Heart rate monitor</li>
+                <li>GPS tracking</li>
+                <li>7-day battery</li>
+            </ul>
+            <p><strong>3999 PKR</strong></p>
+            <p>In Stock</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    
+    <h2>Create New Account</h2>
+    <h3>Personal Information</h3>
+    First Name: <input type="text"><br>
+    Last Name: <input type="text"><br>
+    Date of Birth: <input type="date"><br>
+    Gender: <input type="radio" name="gender"> Male 
+    <input type="radio" name="gender"> Female<br>
+    
+    <h3>Account Details</h3>
+    Email: <input type="email"><br>
+    Password: <input type="password"><br>
+    Phone Number: <input type="tel"><br>
+    <input type="checkbox"> Subscribe to Newsletter<br>
+    
+    <h3>Address (Optional)</h3>
+    Street Address: <input type="text"><br>
+    City: <input type="text"><br>
+    ZIP Code: <input type="text"><br>
+    
+    <button>Create Account</button>
+    
+    <h2>Product Comparison</h2>
+    <table border="1">
+        <tr>
+            <th>Feature</th>
+            <th>Basic Model</th>
+            <th>Pro Model</th>
+            <th>Premium Model</th>
+        </tr>
+        <tr>
+            <td>Battery Life</td>
+            <td>12 hours</td>
+            <td>24 hours</td>
+            <td>36 hours</td>
+        </tr>
+        <tr>
+            <td>Water Resistance</td>
+            <td>IPX5</td>
+            <td>IPX7</td>
+            <td>IPX8</td>
+        </tr>
+        <tr>
+            <td>Warranty</td>
+            <td>1 year</td>
+            <td>2 years</td>
+            <td>3 years</td>
+        </tr>
+    </table>
+    <p>All prices include VAT</p>
+    
+    <h2>Checkout Process</h2>
+    <h3>Payment Information</h3>
+    Card Type: 
+    <input type="radio" name="card" checked> Visa 
+    <input type="radio" name="card"> MasterCard 
+    <input type="radio" name="card"> American Express<br>
+    Card Number: <input type="text"><br>
+    Expiry Date: <input type="month"><br>
+    
+    <h3>Order Summary</h3>
+    <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Wireless Headphones</td>
+            <td>1</td>
+            <td>5999 PKR</td>
+        </tr>
+        <tr>
+            <td>Charging Case</td>
+            <td>1</td>
+            <td>499 PKR</td>
+        </tr>
+        <tr>
+            <td>Extended Warranty</td>
+            <td>1</td>
+            <td>1999 PKR</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td></td>
+            <td><strong>8497 PKR</strong></td>
+        </tr>
+    </table>
+    
+    <button>Complete Purchase</button>
+    
+    <h2>Contact Us</h2>
+    <p>Email: rocktaha90@gmail.com</p>
+    <p>Phone: +923343913490</p>
+    <p>Address: Country Pakistan, City Karachi ZIP Code 24700</p>
+    
+    <!-- Product Video -->
+    <h3>Product Video</h3>
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    
+    <!-- Google Maps Embed -->
+    <h3>Our Location</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.2342181039485!2d67.1849974!3d24.877864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDUyJzQwLjMiTiA2N8KwMTEnMDYuMCJF!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+    </iframe>
+    
+    <h3>Quick Links</h3>
+    <ul>
+        <li>Terms of Service</li>
+        <li>Tickets: Delays</li>
+        <li>Business Paper</li>
+    </ul>
+    
+    <p>Energy Saver Turned On</p>
+    <p>This option's battery power by limiting background activity and visual effects for smooth reading.</p>
+    
+    <p>© 2025 RockMart. All rights reserved.</p>
+</body>
+</html>
